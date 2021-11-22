@@ -8,10 +8,6 @@
   },
   "image": "heroku/ruby",
   "addons": [
-    "heroku-postgresql",
-    {
-      "plan": "scheduler",
-      "options": {}
-    }
+    "heroku-postgresql"
   ]
 }
